@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+# This is for PoC-DEMO
+
 resource "google_scc_event_threat_detection_custom_module" "iam_deny_permissions" {
   organization     = var.organization
   display_name     = "iam_deny_permissions_module"
